@@ -1,4 +1,4 @@
-@(communityString: String = "Community", programming: String = "Programming")
+@(communityString: String = "Community", programmingString: String = "Programming")
 <!DOCTYPE html>
 
 <!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
@@ -52,8 +52,11 @@
                         <li class="@communityString.toLowerCase">
                             @views.html.community.warsjawa2010(header = true)
                         </li>
-                        <li class="@communityString.toLowerCase">
+                        <li class="@programmingString.toLowerCase">
                             @views.html.community.wjug2010pf(header = true)
+                        </li>
+                        <li class="@communityString.toLowerCase">
+                            @views.html.programming.ktr2008(header = true)
                         </li>
                     </ul>
                 </nav>
@@ -66,6 +69,7 @@
         @views.html.community.confitura2011()
         @views.html.community.warsjawa2010()
         @views.html.community.wjug2010pf()
+        @views.html.programming.ktr2008()
     </article>
 
     <!-- About Page-->
@@ -119,7 +123,7 @@
             <section class="downloads">
                 <h1>Downloads</h1>
                 <div class="resume">
-                    <a href="@("/files/cv.pdf")"><b></b><span>Download my Résumé</span></a>
+                    <a href="@("/files/cv.pdf")" target="_blank"><span>Download my Résumé</span></a>
                 </div>
             </section>
         </div>
@@ -193,7 +197,7 @@
         <b></b>
         <ul>
             <li class="active">Everything</li>
-            <li>@programming</li>
+            <li>@programmingString</li>
             <li>@communityString</li>
         </ul>
         <span class="thumb"><b></b><span></span></span>
