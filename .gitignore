@@ -1,4 +1,3 @@
-.idea
 logs
 project/project
 project/target
@@ -6,6 +5,10 @@ target
 tmp
 .history
 dist
-marmurka.iml
-RUNNING_PID
-
+/.idea
+/*.iml
+/out
+/.idea_modules
+/.classpath
+/.project
+/RUNNING_PID
