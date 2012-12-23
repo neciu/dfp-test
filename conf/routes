@@ -13,3 +13,4 @@ GET     /css/*file                  controllers.Assets.at(path="/public/styleshe
 GET     /img/*file                  controllers.Assets.at(path="/public/images/", file)
 GET     /font/*file                 controllers.Assets.at(path="/public/font", file)
 GET     /files/*file                controllers.Assets.at(path="/public/files", file)
+
