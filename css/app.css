@@ -1285,7 +1285,7 @@ h1 {
       #contact .info dd.phone {
         font-size: 14px; }
   #contact .social {
-    float: right;
+    float: center;
     position: relative;
     width: 380px; }
     #contact .social .picasa {
@@ -1441,7 +1441,7 @@ h1 {
       overflow: hidden;
       text-align: left; }
   #contact .map {
-    float: right;
+    float: center;
     clear: both;
     width: 366px;
     padding: 7px;
