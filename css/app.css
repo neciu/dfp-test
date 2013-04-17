@@ -1278,8 +1278,6 @@ h1 {
     #contact .info dl {
       text-align: right;
       width: 220px; }
-    #contact .info dt {
-      display: none; }
     #contact .info dd {
       margin-bottom: 10px; }
       #contact .info dd.phone {
