@@ -27,69 +27,75 @@
 </head>
 <body>
 <div id="page">
-    <!-- Golbal Header -->
-    <header id="header">
-        <!-- Logo -->
-        <hgroup id="logo">
-            <h1>Wojtek Erbetowski</h1>
-            <h2>Web Designer &amp; Web Developer</h2>
-        </hgroup>
-        <!-- /Logo -->
+<!-- Golbal Header -->
+<header id="header">
+    <!-- Logo -->
+    <hgroup id="logo">
+        <h1>Wojtek Erbetowski</h1>
+        <h2>Web Designer &amp; Web Developer</h2>
+    </hgroup>
+    <!-- /Logo -->
 
-        <!-- Golbal Nav -->
-        <nav id="nav">
-            <h1>Navigation</h1>
-            <ul>
-                <li class="portfolio"><a href="#/portfolio"><b></b><span>Portfolio</span></a></li>
-                <li class="about">
-                    <a href="http://blog.erbetowski.pl"><b></b><span>Blog</span></a>
-                    <br/>
-                    <br/>
-                    <a href="#/about-me"><b></b><span>About me</span></a>
+    <!-- Golbal Nav -->
+    <nav id="nav">
+        <h1>Navigation</h1>
+        <ul>
+            <li class="portfolio"><a href="#/portfolio"><b></b><span>Portfolio</span></a></li>
+            <li class="about">
+                <a href="http://blog.erbetowski.pl"><b></b><span>Blog</span></a>
+                <br/>
+                <br/>
+                <a href="#/about-me"><b></b><span>About me</span></a>
+            </li>
+            <li class="contact"><a href="#/contact-me"><b></b><span>Contact me</span></a></li>
+        </ul>
+    </nav>
+    <!-- /Golbal Nav -->
+</header>
+<!-- /Golbal Header -->
+
+<!-- Portfolio Page-->
+<article id="portfolio" class="page">
+<!-- Project Overview (project pages reuse this to display top nav)-->
+<header class="overview-mode">
+    <div class="container">
+        <h1 class="title">Portfolio</h1>
+        <nav class="proj-nav">
+            <h1>Project Overview</h1>
+            <ul class="thumbnails">
+                <!-- Individual Project Thumbnail -->
+                <li class="community">
+                    <figure class="thumbnail">
+                        <a class="image" href="#/portfolio/confitura-2011"><img data-src="img/community/confitura2011/confitura_logo.png"></a>
+                        <figcaption class="title">Confitura 2011</figcaption>
+                    </figure>
                 </li>
-                <li class="contact"><a href="#/contact-me"><b></b><span>Contact me</span></a></li>
+                <li class="community">
+                    <figure class="thumbnail">
+                        <a class="image" href="#/portfolio/warsjawa-2010"><img data-src="img/community/warsjawa2010/logo.png"></a>
+                        <figcaption class="title">Warsjawa 2010</figcaption>
+                    </figure>
+                </li>
+                <li class="community">
+                    <figure class="thumbnail">
+                        <a class="image" href="#/portfolio/wjug---playframework"><img data-src="img/community/wjug2010pf/wjug_logo.png"></a>
+                        <figcaption class="title">WJUG - PlayFramework</figcaption>
+                    </figure>
+                </li>
+                <li class="community">
+                    <figure class="thumbnail">
+                        <a class="image" href="#/portfolio/warsjawa-2012"><img data-src="img/community/warsjawa2012/wj_2012_poster.png"></a>
+                        <figcaption class="title">Warsjawa 2012</figcaption>
+                    </figure>
+                </li>
             </ul>
         </nav>
-        <!-- /Golbal Nav -->
-    </header>
-    <!-- /Golbal Header -->
+    </div>
+</header>
+<!-- /Project Overview -->
+<!-- /Portfolio Page-->
 
-    <!-- Portfolio Page-->
-    <article id="portfolio" class="page">
-        <!-- Project Overview (project pages reuse this to display top nav)-->
-        <header class="overview-mode">
-            <div class="container">
-                <h1 class="title">Portfolio</h1>
-                <nav class="proj-nav">
-                    <h1>Project Overview</h1>
-                    <ul class="thumbnails">
-                        <!-- Individual Project Thumbnail -->
-                        <li class="community">
-<figure class="thumbnail">
-    <a class="image" href="#/portfolio/confitura-2011"><img data-src="img/community/confitura2011/confitura_logo.png"></a>
-    <figcaption class="title">Confitura 2011</figcaption>
-</figure>
-                        </li>
-                        <li class="community">
-<figure class="thumbnail">
-    <a class="image" href="#/portfolio/warsjawa-2010"><img data-src="img/community/warsjawa2010/logo.png"></a>
-    <figcaption class="title">Warsjawa 2010</figcaption>
-</figure>
-                        </li>
-                        <li class="community">
-<figure class="thumbnail">
-    <a class="image" href="#/portfolio/wjug---playframework"><img data-src="img/community/wjug2010pf/wjug_logo.png"></a>
-    <figcaption class="title">WJUG - PlayFramework</figcaption>
-</figure>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <!-- /Project Overview -->
-        <!-- /Portfolio Page-->
-
-        <!--Articles-->
+<!--Articles-->
 <article class="project">
     <header>
         <div class="container">
@@ -302,120 +308,195 @@
                 I've presented basic application development using the framework and showed some live-coding.
                 You can see the slides here
 
-            <center>
-                <embed src="http://embedit.in/lldaT6BqFG.swf" height="400" width="466" type="application/x-shockwave-flash" allowFullScreen="true">
-            </center>
+            <div style="text-align: center">
+                <embed
+                        src="http://embedit.in/lldaT6BqFG.swf"
+                        height="400"
+                        width="466"
+                        type="application/x-shockwave-flash"
+                        allowFullScreen="true"
+                        />
+            </div>
             </p>
         </section>
     </div>
 </article>
-    </article>
-
-    <!-- About Page-->
-    <article id="about" class="page">
-        <header>
-            <div class="container">
-                <a href="#/" class="back">Back to Home</a>
-                <h1 class="title">About Me</h1>
-            </div>
-        </header>
+<article class="project">
+    <header>
         <div class="container">
-            <section class="intro">
-                <h1>Introduction</h1>
-                <figure class="portrait">
-                    <div class="mask"></div>
-                    <img data-src="img/fb.jpg">
-                </figure>
-                <div class="content">
-                    <p>Not yet ready, expect this page in a couple of days/months/years...</p>
+            <a href="#/portfolio" class="back">Back to Portfolio</a>
+            <h1 class="title">Warsjawa 2012</h1>
+        </div>
+    </header>
+    <div class="container">
+        <section class="details">
+            <h1>Details</h1>
+            <dl>
+                <dt>Organizer</dt>
+                <dd>Warsaw JUG</dd>
+            </dl>
+            <dl>
+                <dt>Location</dt>
+                <dd>Warsaw, Poland</dd>
+            </dl>
+            <dl>
+                <dt>Date</dt>
+                <dd>2012.10.27</dd>
+            </dl>
+            <dl>
+                <dt>Language</dt>
+                <dd>Polish</dd>
+            </dl>
+        </section>
+        <section class="intro">
+            <h2>About</h2>
+            <p>
+                Warsjawa is the One of a kind. The biggest workshops for Java developers (not only) out there.
+                It targets the practise, not the theory and as such the groups sizes are very limited
+                (i.e. less than 20 persons) just so everyone gets his attention.
+            </p>
+            <p>
+                In 2012 I had the pleasure to organize (toghether with 5 other geeks) the event,
+                which was a completely new experience. After seeing tons of troubles, TODO-lists, meetings and phone calls
+                I'm appreciating every conference I attend more.
+            </p>
+            <p>
+                With almost 300 registrations Warsjawa is the biggest Java (and around) workshops in Poland.
+                We already have some fresh ideas for 2013 edition.
+            </p>
+
+            <div class="figure">
+                <!-- Individual Figure -->
+                <div class="wrapper">
+                    <figure>
+                        <img data-src="img/community/warsjawa2012/wj_cables.jpg">
+                        <figcaption class="title">Arduino workshop</figcaption>
+                    </figure>
                 </div>
-            </section>
-            <section class="skills">
-                <h1>My Skills</h1>
-                <dl>
-                    <dt>Java</dt>
-                    <dd><b></b><span>90</span></dd>
-                    <dt>Groovy</dt>
-                    <dd><b></b><span>70</span></dd>
-                    <dt>Scala</dt>
-                    <dd><b></b><span>70</span></dd>
-                    <dt>JavaScript</dt>
-                    <dd><b></b><span>45</span></dd>
-                    <dt>Linux/Unix</dt>
-                    <dd><b></b><span>75</span></dd>
-                    <dt>OOP</dt>
-                    <dd><b></b><span>75</span></dd>
-                    <dt>TDD</dt>
-                    <dd><b></b><span>80</span></dd>
-                    <dt>Web Frameworks</dt>
-                    <dd><b></b><span>90</span></dd>
-                    <dt>Spring/Guice</dt>
-                    <dd><b></b><span>90</span></dd>
-                    <dt>Build tools</dt>
-                    <dd><b></b><span>85</span></dd>
-                    <dt>App servers</dt>
-                    <dd><b></b><span>85</span></dd>
-                    <dt>RDBMS</dt>
-                    <dd><b></b><span>75</span></dd>
-                </dl>
-            </section>
-            <section class="downloads">
-                <h1>Downloads</h1>
-                <div class="resume">
-                    <a href="files/cv.pdf" target="_blank"><span>Download my Résumé</span></a>
+                <div class="wrapper">
+                    <figure>
+                        <img data-src="img/community/warsjawa2012/wj_ppl.jpg">
+                        <figcaption class="title">Attendees</figcaption>
+                    </figure>
                 </div>
-            </section>
-        </div>
-    </article>
-    <!-- /About Page-->
-
-    <!-- Contact Page-->
-    <article id="contact" class="page">
-        <header>
-            <div class="container">
-                <h1 class="title">Contact Me</h1>
+                <div class="wrapper">
+                    <figure>
+                        <img data-src="img/community/warsjawa2012/wj_me.jpg">
+                        <figcaption class="title">Opening</figcaption>
+                    </figure>
+                </div>
+                <!-- /Individual Figure -->
             </div>
-        </header>
-        <div class="container">
-            <section class="info">
-                <h1>Contact Information</h1>
-                <dl>
-                    <dt class="phone">Phone</dt>
-                    <dd class="phone">+48 790 028 608</dd>
-                    <dt class="address">Address</dt>
-                    <dd class="address">Osowska 23, 04-302 Warszawa, Polska</dd>
-                    <dt>VAT ID</dt>
-                    <dd>5342222700</dd>
-                    <dt>Bank account no</dt>
-                    <dd>77 1950 0001 2006 0240 3210 0002</dd>
-                </dl>
-            </section>
-            <section class="social">
-                <h1>Social Networks</h1>
-                <ul>
-                    <li class="email"><a href="mailto:wojciech@erbetowski.pl">wojciech@erbetowski.pl</a></li>
-                    <li class="twitter"><a href="http://twitter.com/wojtassj" target="_blank">Follow me on Twitter</a></li>
-                    <li class="facebook"><a href="http://www.facebook.com/wojtassj" target="_blank">Follow me on Facebook</a></li>
-                    <li class="linkedin"><a href="http://pl.linkedin.com/in/wojtekerbetowski">Check me out on LinkedIn</a></li>
-                    <li class="skype"><a href="skype:wojtek.erbetowski?call">Contact me on Skype</a></li>
-                </ul>
-            </section>
-            <section class="map">
-                <figure>
-                </figure>
-            </section>
-        </div>
-    </article>
-    <!-- /Contact Page-->
+        </section>
+    </div>
+</article>
+</article>
 
-    <!-- Global Footer (will be appended to all pages)-->
-    <footer id="footer">
+<!-- About Page-->
+<article id="about" class="page">
+    <header>
         <div class="container">
-            <a class="back-to-top" href="#">Back To Top</a>
-            <div class="legal">&copy; 2012 Marmurka Wojciech Erbetowski.</div>
+            <a href="#/" class="back">Back to Home</a>
+            <h1 class="title">About Me</h1>
         </div>
-    </footer>
-    <!-- /Global Footer -->
+    </header>
+    <div class="container">
+        <section class="intro">
+            <h1>Introduction</h1>
+            <figure class="portrait">
+                <div class="mask"></div>
+                <img data-src="img/fb.jpg">
+            </figure>
+            <div class="content">
+                <p>Not yet ready, expect this page in a couple of days/months/years...</p>
+            </div>
+        </section>
+        <section class="skills">
+            <h1>My Skills</h1>
+            <dl>
+                <dt>Java</dt>
+                <dd><b></b><span>90</span></dd>
+                <dt>Groovy</dt>
+                <dd><b></b><span>70</span></dd>
+                <dt>Scala</dt>
+                <dd><b></b><span>70</span></dd>
+                <dt>JavaScript</dt>
+                <dd><b></b><span>45</span></dd>
+                <dt>Linux/Unix</dt>
+                <dd><b></b><span>75</span></dd>
+                <dt>OOP</dt>
+                <dd><b></b><span>75</span></dd>
+                <dt>TDD</dt>
+                <dd><b></b><span>80</span></dd>
+                <dt>Web Frameworks</dt>
+                <dd><b></b><span>90</span></dd>
+                <dt>Spring/Guice</dt>
+                <dd><b></b><span>90</span></dd>
+                <dt>Build tools</dt>
+                <dd><b></b><span>85</span></dd>
+                <dt>App servers</dt>
+                <dd><b></b><span>85</span></dd>
+                <dt>RDBMS</dt>
+                <dd><b></b><span>75</span></dd>
+            </dl>
+        </section>
+        <section class="downloads">
+            <h1>Downloads</h1>
+            <div class="resume">
+                <a href="files/cv.pdf" target="_blank"><span>Download my Résumé</span></a>
+            </div>
+        </section>
+    </div>
+</article>
+<!-- /About Page-->
+
+<!-- Contact Page-->
+<article id="contact" class="page">
+    <header>
+        <div class="container">
+            <h1 class="title">Contact Me</h1>
+        </div>
+    </header>
+    <div class="container">
+        <section class="info">
+            <h1>Contact Information</h1>
+            <dl>
+                <dt class="phone">Phone</dt>
+                <dd class="phone">+48 790 028 608</dd>
+                <dt class="address">Address</dt>
+                <dd class="address">Osowska 23, 04-302 Warszawa, Polska</dd>
+                <dt>VAT ID</dt>
+                <dd>5342222700</dd>
+                <dt>Bank account no</dt>
+                <dd>77 1950 0001 2006 0240 3210 0002</dd>
+            </dl>
+        </section>
+        <section class="social">
+            <h1>Social Networks</h1>
+            <ul>
+                <li class="email"><a href="mailto:wojciech@erbetowski.pl">wojciech@erbetowski.pl</a></li>
+                <li class="twitter"><a href="http://twitter.com/wojtassj" target="_blank">Follow me on Twitter</a></li>
+                <li class="facebook"><a href="http://www.facebook.com/wojtassj" target="_blank">Follow me on Facebook</a></li>
+                <li class="linkedin"><a href="http://pl.linkedin.com/in/wojtekerbetowski">Check me out on LinkedIn</a></li>
+                <li class="skype"><a href="skype:wojtek.erbetowski?call">Contact me on Skype</a></li>
+            </ul>
+        </section>
+        <section class="map">
+            <figure>
+            </figure>
+        </section>
+    </div>
+</article>
+<!-- /Contact Page-->
+
+<!-- Global Footer (will be appended to all pages)-->
+<footer id="footer">
+    <div class="container">
+        <a class="back-to-top" href="#">Back To Top</a>
+        <div class="legal">&copy; 2012 Marmurka Wojciech Erbetowski.</div>
+    </div>
+</footer>
+<!-- /Global Footer -->
 </div>
 <!-- Client-side Template -->
 <script id="tooltip-tpl" type="text/html">
